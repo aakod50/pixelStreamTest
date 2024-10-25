@@ -8,7 +8,7 @@ function App() {
 
   // Function to handle sending a message to the iframe
   const handleSendCommand = () => {
-    const message = { message: 'test' };
+    const message = { message: 'stopmetahuman' };
 
     if (iframeRef.current) {
       iframeRef.current.contentWindow.postMessage(message, '*');
@@ -17,7 +17,7 @@ function App() {
 
  
   const handleMute = () => {
-    const message = { message: 'muteAudio' };
+    const message = { message: 'Hows you dude' };
 
     if (iframeRef.current) {
       iframeRef.current.contentWindow.postMessage(message, '*');
